@@ -8,6 +8,9 @@ const app = express();
 mongoose.connect(
   "mongodb+srv://1pedr1n:pedro0909@cluster0.fypzvem.mongodb.net/test"
 );
+
+// Carrega os models
+const Product = require("./models/product");
 // Carrega as rotas
 const indexRoute = require("./routes/index");
 const productRoute = require("./routes/product");
