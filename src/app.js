@@ -6,7 +6,7 @@ const app = express();
 
 // Conecta ao banco
 mongoose.connect(
-  "mongodb+srv://1pedr1n:pedro0909@cluster0.fypzvem.mongodb.net/test"
+  "mongodb+srv://1pedr1n:pedro0909@cluster0.tdywdsd.mongodb.net/?retryWrites=true&w=majority"
 );
 
 // Carrega os models
